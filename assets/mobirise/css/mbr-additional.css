@@ -1,26 +1,26 @@
 @font-face {
   font-family: "Ananda";
-  src: url('../../Ananda.svg#Ananda') format('svg'),
-       url('../../Ananda.ttf') format('truetype'),
-       url('../../Ananda.woff') format('woff');
+  src: url('../../fonts/Ananda.svg#Ananda') format('svg'),
+       url('../../fonts/Ananda.ttf') format('truetype'),
+       url('../../fonts/Ananda.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ananda-personal-use";
-  src: url('../../ananda-personal-use.eot');
-  src: url('../../ananda-personal-use.eot?#iefix') format('embedded-opentype'),
-       url('../../ananda-personal-use.woff2') format('woff2');
+  src: url('../../fonts/ananda-personal-use.eot');
+  src: url('../../fonts/ananda-personal-use.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/ananda-personal-use.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "geo";
-  src: url('../../GeosansLight.svg#GeosansLight') format('svg'),
-       url('../../GeosansLight.ttf') format('truetype'),
-       url('../../GeosansLight.woff') format('woff');
+  src: url('../../fonts/GeosansLight.svg#GeosansLight') format('svg'),
+       url('../../fonts/GeosansLight.ttf') format('truetype'),
+       url('../../fonts/GeosansLight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
