@@ -2024,7 +2024,7 @@ body {
   pointer-events: none;
 }
 .cid-ru8MU6uej5 .main_wrapper .b_wrapper .block {
-  height: 450px;
+  height: 490px;
   background-color: #8AA16E;
   pointer-events: fill;
 }
@@ -3549,10 +3549,9 @@ textarea {
 
 
 
-* {
+.timeline  *{
 	pading: 0;
 	margin: 0;
-	font-family: "geo";
 	position: relative;
 }
 
