@@ -34,7 +34,11 @@
   font-style: normal;
 }
 
-
+hr {
+border: 0;
+border-top: 0.5px solid #999;
+height:0;
+}
 
 
 
@@ -84,7 +88,6 @@ body {
 .display-5 {
   font-family: 'geo';
   font-size: 1.5rem;
-  font-weight:bold;
   letter-spacing: 0.1rem;
 }
 .display-5 > .mbr-iconfont {
@@ -1961,6 +1964,7 @@ body {
     padding: 0 0 2rem 0 !important;
     -webkit-flex-basis: initial !important;
   }
+    
 }
 .cid-ru8MBDROac {
   padding-top: 90px;
@@ -3490,6 +3494,9 @@ textarea {
     margin: 20px auto;
     width: 95%;
   }
+    
+
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -3504,6 +3511,7 @@ textarea {
   #form_button {
     padding: 15px 25px;
   }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -3534,4 +3542,121 @@ textarea {
   padding-bottom: 90px;
   background-color: #ffffff;
   text-align: center;
+}
+
+
+
+
+
+
+* {
+	pading: 0;
+	margin: 0;
+	font-family: "geo";
+	position: relative;
+}
+
+.timeline {
+	padding: 40px 0px;
+	width: 35%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.timeline:before {
+	content: "";
+	position: absolute;
+	top: 40px;
+	left: 65px;
+	width: 1px;
+	height: calc(100% - 80px);
+	background: #920A2B;
+}
+
+.timeline .column {
+	margin: 40px 40px 40px 120px;
+}
+
+.timeline .column .title h1 {
+	font-size: 120px;
+	color: rgba(0,0,0,0.1);
+	font-family: "geo";
+	letter-spacing: 3px;
+}
+
+.timeline .column .title h1:before {
+	content: "";
+	position: absolute;
+	left: -60px;
+	top: 86px;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border: 2px solid #920A2B;
+}
+
+.timeline .column .title h2 {
+	margin-top: -60px;
+	font-size: 33px;
+    font-family: "Ananda";
+    color: #920A2B;
+}
+
+.timeline .column .description p {
+	font-size: 1rem;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: "geo";
+    color: #;
+}
+
+.timeline .column .description {
+	border-left: 1px solid #000;
+}
+
+.main {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 80px;
+}
+
+.main h1 {
+	font-size: 80px;
+	line-height: 60px;
+}
+
+.main p {
+	font-size: 13px;
+	line-height: 20px;
+	font-family: "geo";
+	text-align: right;
+}
+
+
+
+@media screen and (max-width: 1240px)
+{
+    
+    .timeline {
+	padding: 40px 0px;
+	width: 60%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 40px;
+}
+}
+
+
+@media screen and (max-width: 800px)
+{
+    
+    .timeline {
+	padding: 40px 0px;
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 40px;
+}
 }
