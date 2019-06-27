@@ -3659,3 +3659,62 @@ textarea {
 	margin-bottom: 40px;
 }
 }
+
+
+
+
+
+  
+}
+.tab-group,{
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;
+   zoom: 1; /* Fix for IE7 */
+   *display: inline; /* Fix for IE7 */
+    
+}
+
+.tab-group > li, {
+    border-radius: 1px;
+    position: relative;
+    float: left;}
+
+
+.tab-group > li.active > a, 
+.tab-group > li.active > a:hover, 
+.tab-group > li.active > a:focus,{
+    background-color:#8AA16E;
+    color: #8AA16E;
+
+}
+.tab-group > li > a, {
+    border-radius: 0;
+}
+.tab-group > li > a:hover, {
+    border-radius: 4px;
+}
+
+.tab-group li + li {
+    padding-left:290px;
+}
+
+.tab-group > li:not(:first-child):not(:last-child),
+.tab-group > li:not(:first-child):not(:last-child) > a:hover {
+  border-radius: 0;
+}
+.tab-group > li:first-child,
+.tab-group > li:first-child > a:hover {
+    margin-left: 0;
+}
+.tab-group > li:first-child:not(:last-child),
+.tab-group > li:first-child:not(:last-child) > a:hover {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.tab-group > li:last-child:not(:first-child),
+.tab-group > li:last-child:not(:first-child) > a:hover {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
