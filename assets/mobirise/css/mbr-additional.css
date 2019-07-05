@@ -3600,6 +3600,7 @@ textarea {
 	letter-spacing: 3px;
 }
 
+/*
 .timeline .column .title h1:before {
 	content: "";
 	position: absolute;
@@ -3610,6 +3611,9 @@ textarea {
 	background: #fff;
 	border: 2px solid #920A2B;
 }
+*/
+
+
 
 .timeline .column .title h2 {
 	margin-top: -60px;
