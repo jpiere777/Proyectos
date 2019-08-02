@@ -598,7 +598,7 @@ body {
   color: #ffffff !important;
 }
 .text-black {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -2585,7 +2585,7 @@ body {
   color: #232323;
 }
 .cid-ru8Lo8fxKS .navbar {
-  background: #ffffff;
+  background: #000000;
   transition: none;
   min-height: 100px;
   padding: .5rem 0;
@@ -3738,3 +3738,46 @@ textarea {
   border-bottom-left-radius: 0;
 }
 
+
+---------
+
+
+
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-item {
+	min-height: 350px; 
+	height: 100%;
+	width:100%; 
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+  -webkit-animation: fadeInUp 200ms linear 300ms both;
+  -moz-animation: fadeInUp 200ms linear 300ms both;
+  -o-animation: fadeInUp 200ms linear 300ms both;
+  -ms-animation: fadeInUp 200ms linear 300ms both;
+  animation: fadeInUp 200ms linear 300ms both;
+}
+.carousel-caption h3:nth-child(2) {
+  -webkit-animation: fadeInUp 200ms linear 600ms both;
+  -moz-animation: fadeInUp 200ms linear 600ms both;
+  -o-animation: fadeInUp 200ms linear 600ms both;
+  -ms-animation: fadeInUp 200ms linear 600ms both;
+  animation: fadeInUp 200ms linear 600ms both;
+}
+.carousel-caption button {
+  -webkit-animation: fadeInUp 300ms linear 900ms both;
+  -moz-animation: fadeInUp 300ms linear 900ms both;
+  -o-animation: fadeInUp 300ms linear 900ms both;
+  -ms-animation: fadeInUp 300ms linear 900ms both;
+  animation: fadeInUp 300ms linear 900ms both;
+}
