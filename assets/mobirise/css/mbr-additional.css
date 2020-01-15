@@ -2011,6 +2011,34 @@ body {
   height: 100%;
 }
 @media (max-width: 767px) {
+	
+	.hamburger span{
+	color: #fff !important;
+	background-color: #fff !important;
+	}
+	
+	
+.telefono {
+   position: absolute;
+   top:11%;
+   right: 0;
+   background: #271F05;
+   height:20px;
+   width:180px;
+	text-align: center;
+	line-height:2;
+}
+	
+.telefono span
+	{
+		font-size:17px !important;
+		margin-right:3px;
+	}
+
+.telefono a
+	{
+		font-size:14px;
+	}
   .cid-ru8MBDROac .card:not(.last-child) {
     padding-bottom: 2rem;
   }
@@ -3787,3 +3815,11 @@ textarea {
 .left {object-position: left;}
 .right {object-position:right;}
 
+
+
+.card-box span
+{
+   font-family:"geo","helvetica";
+   font-size: 1.3rem;
+   color: #8aa16d;
+}
