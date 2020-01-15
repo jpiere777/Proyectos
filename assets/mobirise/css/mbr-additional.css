@@ -3563,6 +3563,7 @@ textarea {
 
 
 
+/*
 
 .timeline  *{
 	pading: 0;
@@ -3598,19 +3599,6 @@ textarea {
 	font-family: "geo";
 	letter-spacing: 3px;
 }
-
-/*
-.timeline .column .title h1:before {
-	content: "";
-	position: absolute;
-	left: -60px;
-	top: 86px;
-	width: 10px;
-	height: 10px;
-	background: #fff;
-	border: 2px solid #920A2B;
-}
-*/
 
 
 
@@ -3651,6 +3639,7 @@ textarea {
 	font-family: "geo";
 	text-align: right;
 }
+*/
 
 
 
@@ -3739,52 +3728,31 @@ textarea {
 
 
 ---------
+/*CAROUSEL*/
 
-
-
-.carousel-indicators {
-	bottom: 0;
+.carousel .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
-.carousel-control.right,
-.carousel-control.left {
-	background-image: none;
-}
-.carousel-item {
-	min-height: 350px; 
-	height: 100%;
-	width:100%; 
-    margin-left: 0;
-    margin-right: 0;
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
 }
 
 
-/* Animation delays */
-.carousel-caption h3:first-child {
-  -webkit-animation: fadeInUp 200ms linear 300ms both;
-  -moz-animation: fadeInUp 200ms linear 300ms both;
-  -o-animation: fadeInUp 200ms linear 300ms both;
-  -ms-animation: fadeInUp 200ms linear 300ms both;
-  animation: fadeInUp 200ms linear 300ms both;
-}
-.carousel-caption h3:nth-child(2) {
-  -webkit-animation: fadeInUp 200ms linear 600ms both;
-  -moz-animation: fadeInUp 200ms linear 600ms both;
-  -o-animation: fadeInUp 200ms linear 600ms both;
-  -ms-animation: fadeInUp 200ms linear 600ms both;
-  animation: fadeInUp 200ms linear 600ms both;
-}
-.carousel-caption button {
-  -webkit-animation: fadeInUp 300ms linear 900ms both;
-  -moz-animation: fadeInUp 300ms linear 900ms both;
-  -o-animation: fadeInUp 300ms linear 900ms both;
-  -ms-animation: fadeInUp 300ms linear 900ms both;
-  animation: fadeInUp 300ms linear 900ms both;
+/*GALERIA IMAGENES QUIENES SOMOS*/
+
+@keyframes mover{
+    0% {
+        transform: translate(100%)
+    }
 }
 
 
-
-
-
+/*GALERIA IMAGENES QUIENES SOMOS*/
 .gallery {
   display: flex;
   flex-direction:row;
@@ -3818,3 +3786,4 @@ textarea {
 .center {object-position: center;}
 .left {object-position: left;}
 .right {object-position:right;}
+
