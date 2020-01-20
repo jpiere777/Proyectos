@@ -3755,7 +3755,10 @@ textarea {
 
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
-
+.propi
+{
+margin-left: auto !important;
+}
 
 .column img
 {
@@ -3803,6 +3806,13 @@ textarea {
 }
 
 
+.propi img
+{
+	margin-top:15px;
+	width:50% !important;
+}
+
+
 /*--BACKGROUNDS*/
 
 .slide-burger 
@@ -3842,21 +3852,13 @@ textarea {
 	}
 /*--RESPONSIVE--*/
 
-@media screen only (max-width: 425px){
+@media only screen and (max-width: 425px){
 	
-	
-	.slider-controls>.previous {
-   width:1px !important;
-}
-	
-	.slider-controls>.next {
-		width:1px !important;
-}
 	
 .subnombre
 {
    font-family:"geo","helvetica";
-   font-size: 60px !important;
+   font-size: 40px !important;
    color: #8aa16d !important;
    text-transform: none !important;
 }
@@ -3864,46 +3866,32 @@ textarea {
 .nombre
 {
   font-family: "Ananda","ananda-personal-use";
-  font-size: 36px !important;
+  font-size: 26px !important;
   color: #8aa16d;
   text-transform: none !important;
 }
 
 .parrafos
 {
-  margin-top: 20px;
-  font-family: 'geo';
   font-size: 10px !important;
   letter-spacing: 0.1rem;
-  text-transform: none !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left:10px;
   text-align: center;
-  
-	
+  padding: 10px;
 }
 
-	
-.grid {
-    display:table;
-	padding-top: 150px;
-}
 
-	
 .grid>.column {
-    width:100%!important;
-    display: table-cell;
-    vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .parte2 img
 	{
-	width:85%!important;
-	margin-left: auto !important;
-    margin-right: auto !important;
+	width:60%!important;
+	position: absolute;
+	bottom:40px;
+	left: 70px
+	
 	}
 	
 .slider
@@ -3914,6 +3902,42 @@ textarea {
 	
 .grid>.column:first-child {
     text-align:center !important;
+}
+	
+	
+.grid>.column {
+   width: 100% !important;
+   display: table-cell;
+   vertical-align: middle;
+}
+
+	
+.grid {
+    display: table;
+    margin-top: -120px !important;
+}
+	
+	
+	.propi img
+{
+	margin-top:15px;
+	width:60% !important;
+}
+	
+	.propi
+	{
+	margin-left: auto !important;
+	margin-right: auto !important;
+	}
+	
+	
+	
+.parte1
+{
+    width: 100%;
+    max-width: 425px;
+    margin-top: 140px;
+
 }
 	
 }
