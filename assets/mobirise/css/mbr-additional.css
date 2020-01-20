@@ -3775,8 +3775,8 @@ textarea {
 {
   font-family: "Ananda","ananda-personal-use";
   font-size: 36px !important;
-  color: #8aa16d;
   text-transform: none !important;
+  color: #251309 !important;
 }
 
 .parrafos
@@ -3791,6 +3791,7 @@ textarea {
   display: block;
   margin-left: auto;
   white-space:normal !important;
+  color: #251309 !important;
 }
 
 /*--ICONOS*/
@@ -3806,24 +3807,19 @@ textarea {
 
 .slide-burger 
 {
-	background: #CF624A !important;
+	background: #F5EDDE !important;
 }
 
 
 .slide-astronaut {
-    background: #F5EDDE !important;
+    background: #FFEECF !important;
 }
 
-
-.nombre2
+.slide-coffee
 {
-	color: #251309 !important;
+	background: #FFEAC3 !important;
 }
 
-.parrafos2
-{
-	color: #251309 !important;
-}
 
 /*--FLECHA--*/
 
